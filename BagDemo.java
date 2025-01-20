@@ -35,7 +35,8 @@ public class BagDemo {
     // Show updated contents
     fruitBag.printBag();
 
-    // Test 5: Check count after removal
+    // Test 5: Check contains and count after removal
+    System.out.println("Contains apple after removal? " + fruitBag.contains("apple"));
     System.out.println("Count of apple after removal: " + fruitBag.count("apple"));
   }
 }
